@@ -1,14 +1,10 @@
-package dhbk.android.mediaplayertest;
+package dhbk.android.mediaplayertest.ui;
 
-import android.app.FragmentTransaction;
-import android.app.SearchManager;
 import android.content.Intent;
-import android.provider.MediaStore;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
+import android.provider.MediaStore;
 
-import dhbk.android.mediaplayertest.ui.BaseActivity;
+import dhbk.android.mediaplayertest.R;
 
 /**
  * This class hold the MediaBrowser and the MediaController instances. It will create a MediaBrowser

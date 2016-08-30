@@ -11,7 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import dhbk.android.mediaplayertest.MusicPlayerActivity;
+import dhbk.android.mediaplayertest.R;
 
 /**
  * Created by huynhducthanhphong on 8/30/16.

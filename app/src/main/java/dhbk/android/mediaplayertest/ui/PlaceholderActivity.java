@@ -1,7 +1,9 @@
 package dhbk.android.mediaplayertest.ui;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import dhbk.android.mediaplayertest.R;
 
 public class PlaceholderActivity extends AppCompatActivity {
 
