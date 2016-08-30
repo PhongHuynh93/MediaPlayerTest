@@ -1,10 +1,12 @@
 package dhbk.android.mediaplayertest;
 
+import android.app.FragmentTransaction;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 
 import dhbk.android.mediaplayertest.ui.BaseActivity;
 
@@ -50,6 +52,9 @@ public class MusicPlayerActivity extends BaseActivity {
             }
         }
 
-        navigateToBrowser(mediaId);
+        // TODO: 8/30/16
+//        navigateToBrowser(mediaId);
     }
+
+
 }
