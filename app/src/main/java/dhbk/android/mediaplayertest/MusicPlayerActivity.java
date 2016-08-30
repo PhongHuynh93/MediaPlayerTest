@@ -6,12 +6,14 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import dhbk.android.mediaplayertest.ui.BaseActivity;
+
 /**
  * This class hold the MediaBrowser and the MediaController instances. It will create a MediaBrowser
  * when it is created and connect/disconnect on start/stop. Thus, a MediaBrowser will be always
  * connected while this activity is running.
  */
-public class MusicPlayerActivity extends AppCompatActivity {
+public class MusicPlayerActivity extends BaseActivity {
     private static final String SAVED_MEDIA_ID="com.example.android.uamp.MEDIA_ID";
 
     private Bundle mVoiceSearchParams;
@@ -26,10 +28,6 @@ public class MusicPlayerActivity extends AppCompatActivity {
 
         // todo declare param from intent
         initializeFromParams(savedInstanceState, getIntent());
-
-    }
-
-    protected void initializeToolbar() {
 
     }
 
